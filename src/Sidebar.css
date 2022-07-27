@@ -1,0 +1,32 @@
+.sidebar {
+    border-right: 1px solid var(--tweeter-background);
+    flex: 0.25; /* allotted 20% of the width to sidebar*/
+    max-height: 100px; 
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.sidebar__tweeterIcon {
+    color: var(--tweeter-color);
+    font-size: 25px !important; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*important: bcz we're overriding the MUI theme*/
+
+.sidebar__tweetBtn {
+    background-color: var(--tweeter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+
+
+
